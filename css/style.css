@@ -1,0 +1,33 @@
+/* this code was created for hector martinez*/
+
+html, body{
+    margin: 0;
+    overflow: hidden;
+}
+/*CANVAS*/
+canvas{
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*countdown*/
+section{
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    text-align: center;
+    font-family: arial;
+    font-size: 2rem;
+}
+section div{
+    font-size: 4rem;
+}
+section p{
+    font-size: 20px;
+    font-family: cursive;
+}
